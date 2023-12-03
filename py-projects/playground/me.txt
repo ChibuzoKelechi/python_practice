@@ -1,0 +1,14 @@
+Python Basics:
+Review and solidify your understanding of basic Python concepts.
+
+NumPy and Pandas:
+NumPy for numerical operations and array manipulation.
+Pandas for data manipulation and analysis.
+
+Matplotlib and Seaborn:
+Data visualization using Matplotlib and Seaborn.
+
+Scikit-Learn:
+Familiarize yourself with the Scikit-Learn library for machine learning algorithms, data preprocessing, and model evaluation.
+
+Machine Learning Concepts:
