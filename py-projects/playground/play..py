@@ -32,3 +32,7 @@ try:
     print(divide(9))
 except ZeroDivisionError:
     print("Zero gives an error")
+
+
+
+anime = []
