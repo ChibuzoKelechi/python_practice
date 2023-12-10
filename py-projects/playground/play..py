@@ -36,3 +36,19 @@ except ZeroDivisionError:
 
 
 anime = []
+
+
+'''
+text = pyperclip.paste()
+print(text)
+
+# text_array = text.split('/n')
+list(text)
+list_text = '_'.join(text)
+mod_text = text.upper()
+
+text = f'{mod_text} {list_text}'
+
+pyperclip.copy(text)
+print(text)
+'''
