@@ -1,0 +1,5 @@
+Python
+Scikit-Learn:
+ Familiarize yourself with the Scikit-Learn library for machine learning algorithms, 
+ data preprocessing, and model evaluation.
+                            

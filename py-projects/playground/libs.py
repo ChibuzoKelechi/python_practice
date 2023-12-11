@@ -30,7 +30,7 @@ def suggest_libs():
         print('You will need the following libraries: ' + req_libs)
 
 
-suggest_libs()
+# suggest_libs()
 
 
 # Function that prints out text file  
