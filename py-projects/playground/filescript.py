@@ -2,15 +2,8 @@
 
 import shutil, os, send2trash, zipfile
 
-for folder, subfolders, files in os.walk('py-projects'):
-    print(f'The current folder is {folder}')
-    for sub in subfolders:
-        print(f'{sub} is in {folder}')
-        print('....')
-    for file in files:
-        print(f'{file} can be found in {folder}')
-        
-    print('....')
+# shutil.rmtree('py-projects/testfolder')
+send2trash.send2trash('first-python-main.zip')
 
 # playfiles = os.listdir('py-projects/playground')
 
@@ -27,3 +20,15 @@ for folder, subfolders, files in os.walk('py-projects'):
 
 # check_move()
 # print('Moved files to \'textfiles\' directory')
+
+
+
+# for folder, subfolders, files in os.walk('py-projects'):
+#     print(f'The current folder is {folder}')
+#     for sub in subfolders:
+#         print(f'{sub} is in {folder}')
+#         print('....')
+#     for file in files:
+#         print(f'{file} can be found in {folder}')
+        
+#     print('....')
