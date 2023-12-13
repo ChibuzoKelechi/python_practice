@@ -51,4 +51,17 @@ text = f'{mod_text} {list_text}'
 
 pyperclip.copy(text)
 print(text)
+
+anime = ['Jigokuraku', 'Naruto', 'JJK']
+
+# if 'JJK' in anime:
+#     raise Exception('Well....')
+# else:
+#     print('Absent')
+
+gabimaru = 'Hollow'
+
+# assert gabimaru == 'Hollow', 'He needs to focus'
+gabimaru = 'Full'
+assert gabimaru == 'Hollow', 'He needs to focus'
 '''

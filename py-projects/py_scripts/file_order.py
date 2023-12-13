@@ -20,7 +20,7 @@ def checkfile():
             shutil.move(filepath, '/home/kelechi/Downloads/zipfiles')
         elif file.endswith('.rpm'):
             shutil.move(filepath, '/home/kelechi/Downloads/rpm')
-        elif file.endswith('.gif') or file.endswith('.svg') or :
+        elif file.endswith('.gif') or file.endswith('.svg'):
             shutil.move(filepath, '/home/kelechi/Downloads/gifs')
             
 checkfile()
