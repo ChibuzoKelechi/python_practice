@@ -7,7 +7,9 @@ search_term = input('Search Wikipedia for? ')
 
 def wikisearch(keyword):
     print('Googling....Checking Wikipedia....')
-    search_link = f'https://en.wikipedia.org/wiki/{keyword}'
-    webbrowser.open(search_link)
+    wikilink = f'https://en.wikipedia.org/wiki/{keyword}'
+    googlelink = f'https://www.google.com/search?q={keyword}'
+    webbrowser.open(googlelink)
+    webbrowser.open_new_tab(wikilink)
 
 wikisearch(search_term)
