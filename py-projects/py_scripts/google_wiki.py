@@ -3,7 +3,7 @@
 
 import webbrowser
 
-search_term = input('Search Wikipedia for? ')
+search_term = input('Search Wikipedia/Google for? ')
 
 def wikisearch(keyword):
     print('Googling....Checking Wikipedia....')
