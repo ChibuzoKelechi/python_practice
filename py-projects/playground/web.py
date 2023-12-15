@@ -4,14 +4,16 @@ from selenium import webdriver
 anime = ['Jigokuraku', 'Jujutsu Kaisen', 'Attack on Titan']
 
 browser = webdriver.Firefox()
-# print("ChromeDriver Version:", browser.capabilities['chrome']['chromedriverVersion'])
-# browser.quit()
-browser.get('http://inventwithpython.com')
+browser.get('https://kaggle.com')
 
-clickable = browser.find_element("link text", "Blog")
+clickable = browser.find_element("link text", "Courses")
+
 print(type(clickable))
 
 clickable.click()
+
+# browser.get('http://inventwithpython.com')
+
 
 # webbrowser.open('kaggle.com')
 # target_site = 'https://en.wikipedia.org/wiki/Python_(programming_language)'
@@ -27,6 +29,13 @@ clickable.click()
 # except:
 #     print('Unavailable')
 
+# email_field = browser.find_element('id', 'identifierId')
+# pwd_field = browser.find_element('id', 'password')
+
+# email_field.send_keys('')
+# pwd_field.send_keys('')
+# email_field.submit()
+# pwd_field.submit()
 
 # print(type(py_wiki))
 
@@ -45,3 +54,6 @@ clickable.click()
 #     webbrowser.open(target_site)
 # except Exception as exc:
 #     print('There was an error: %s' % (exc))
+
+# print("ChromeDriver Version:", browser.capabilities['chrome']['chromedriverVersion'])
+# browser.quit()
